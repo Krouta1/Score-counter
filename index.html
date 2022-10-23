@@ -1,38 +1,44 @@
 <!doctype HTML>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        
-    </head>
-    <body>
-        <h1 class="header">🏀Baksteball score counter🗑️</h1>
-        <div class="container">
-            
-            <div>
-                <h3>HOME🏠</h3>
-                <h1 class="score cursedFont" id="home-score">0</h1>
-                <button class="addScore cursedFont" onclick="homeAddOne()">+1</button>
-                <button class="addScore cursedFont" onclick="homeAddTwo()">+2</button>
-                <button class="addScore cursedFont" onclick="homeAddThree()">+3</button>
-            </div>
-            
-            <div>
-                <h3>VS</h3>
-                <button class="newGame cursedFont" onclick="newGame()">NEW GAME</button>
-                <p class="cursedFont">👇Game time👇</p>
-                <p class="time cursedFont" id="game-time">60</p> 
-                <p class="cursedFont">minutes</p>
-            </div>
-            
-            <div>
-                <h3>GUEST🏕️</h3>
-                <h1 class="score cursedFont" id="guest-score">0</h1>
-                <button class="addScore cursedFont" onclick="guestAddOne()">+1</button>
-                <button class="addScore cursedFont" onclick="guestAddTwo()">+2</button>
-                <button class="addScore cursedFont" onclick="guestAddThree()">+3</button>
-            </div>
-            
-        </div>
-        <script src="index.js"></script>
-    </body>
+
+<head>
+	<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+	<div class="main-container">
+		<h1 class="header">🏀Baksteball score counter🗑️</h1>
+		<div class="container">
+
+			<div>
+				<h3>HOME🏠</h3>
+				<h1 class="score cursedFont" id="home-score">0</h1>
+				<button class="addScore cursedFont" onclick="homeAddOne()">+1</button>
+				<button class="addScore cursedFont" onclick="homeAddTwo()">+2</button>
+				<button class="addScore cursedFont" onclick="homeAddThree()">+3</button>
+			</div>
+
+			<div>
+				<h3>VS</h3>
+				<button class="newGame cursedFont" onclick="newGame()">NEW GAME</button>
+				<p class="cursedFont">👇Game time👇</p>
+				<p class="time cursedFont" id="game-time">60</p>
+				<p class="cursedFont">minutes</p>
+			</div>
+
+			<div>
+				<h3>GUEST🏕️</h3>
+				<h1 class="score cursedFont" id="guest-score">0</h1>
+				<button class="addScore cursedFont" onclick="guestAddOne()">+1</button>
+				<button class="addScore cursedFont" onclick="guestAddTwo()">+2</button>
+				<button class="addScore cursedFont" onclick="guestAddThree()">+3</button>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+
 </html>
